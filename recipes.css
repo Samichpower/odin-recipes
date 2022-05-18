@@ -5,10 +5,37 @@ body {
 }
 
 h1 {
-  font-weight: bold;
   font-size: 40px;
   background-color: white;
   padding: 20px 0px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+}
+
+img {
+  height: auto;
+  width: 300px;
+  border: 1px solid black;
+}
+
+li, .desc {
+  font-size: 20px;
+  background-color: white;
+}
+
+h2 {
+  padding: 0px;
+}
+
+ul, ol {
+  display: inline-block;
+  text-align: left;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: pink;
 }
